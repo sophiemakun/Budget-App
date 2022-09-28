@@ -62,18 +62,34 @@ h2{
     margin-top: 5rem;
 }
 
+.expense-title h3{
+    color: rgb(86, 85, 85);
+    font-weight: 600;
+}
+
+.expense-title p{
+    color: rgb(209, 2, 2);
+    font-weight: 600;
+}
+
 .expensetitle p{
     color: rgb(86, 85, 85);
     font-weight: 600;
 }
 
-.expensevalue p{
+.expense-value h3{
     color: rgb(86, 85, 85);
     font-weight: 600;
 }
 
+.expense-value p{
+    color: rgb(209, 2, 2);
+    font-weight: 600;
+
+}
+
 .expensetitle input{
-    width: 108%;
+    width: 90%;
     height: 1.9rem;
     border: 1.4px solid rgb(209, 2, 2);
     border-radius: 0.2rem;
@@ -177,7 +193,7 @@ h2{
     margin-top: 3em;
 }
 
-.expensetitle {
+.expense-title {
     margin-right: 5em;
 }
 
@@ -186,5 +202,25 @@ h2{
 }
 
 .expense-value {
+   display: flex;
+   align-items: center;
+}
+
+.parent-shell {
+    display: flex;
+    flex-direction: column;
+}
+
+.amount-budget {
+    display: flex;
+}
+
+.amount-budget p{
     color: rgb(209, 2, 2);
+    font-weight: 600;
+    margin-right: 10em;
+}
+
+#items th{
+    padding-right: 3em;
 }
