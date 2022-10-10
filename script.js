@@ -24,6 +24,7 @@ function calculate() {
 function deleteItem(item) {
   expenses = expenses.filter((exp) => exp.id !== item);
   displayExpenses();
+  calculate()
 }
 
 function displayExpenses() {
@@ -57,6 +58,7 @@ function addExpense() {
   };
   expenses.push(expenseItem);
   displayExpenses();
+  calculate()
 }
 
 window.addEventListener("DOMContentLoaded", () => {

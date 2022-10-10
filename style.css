@@ -176,7 +176,7 @@ h2{
 }
 
 .balancenumber{
-    color: green;
+    color: black;
     padding-top: 1.8rem;
     font-size: 30px;
     font-weight: 600;
@@ -191,6 +191,8 @@ h2{
 .expenses {
     display: flex;
     margin-top: 3em;
+    overflow: auto;
+    height: 300px;
 }
 
 .expense-title {
@@ -221,6 +223,5 @@ h2{
     margin-right: 10em;
 }
 
-#items th{
-    padding-right: 3em;
-}
+
+
